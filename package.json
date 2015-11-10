@@ -1,12 +1,13 @@
 {
-  "name": "travisCIdemo",
-  "version": "0.1.0",
-  "devDependencies": {
-    "grunt": "0.4.1",
-    "grunt-cli": "0.1.9",
-    "grunt-contrib-jshint": "0.6.4"
-  },
+  "name": "TravisDemo",
+  "description": "learn to travis",
+  "author": "fos",
+  "version": "0.0.1",
   "scripts": {
-    "test": "grunt --verbose"
+    "test": "./node_modules/jshint/bin/jshint travisCIdemo.js"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.0",
+    "jshint": "^2.8.0"
   }
 }
